@@ -1,0 +1,70 @@
+<div align="center">
+<h1><kbd>🧩 ImageCompressor</kbd></h1>
+An extension for MIT App Inventor 2.<br>
+An extension for compressing images to JPEG, PNG, or WebP.
+</div>
+
+## 📝 Specifications
+* **
+📦 **Package:** com.bosonshiggs.imagecompressor
+💾 **Size:** 27,86 KB
+⚙️ **Version:** 1.0
+📱 **Minimum API Level:** 7
+📅 **Updated On:** [date=2025-06-21 timezone="America/Fortaleza"]
+💻 **Built & documented using:** [FAST](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-publish-extensions/129103?u=jewel) <small><mark>v3.7.1</mark></small>
+
+## <kbd>Events:</kbd>
+**ImageCompressor** has total 3 events.
+
+### 1. ImageSelected
+Triggered when an image is selected.
+
+| Parameter | Type
+| - | - |
+| imagePath | text
+
+### 2. ImageSaved
+Triggered when an image is saved.
+
+| Parameter | Type
+| - | - |
+| id | number
+| filePath | text
+
+### 3. ErrorOccurred
+Triggered when an error occurs during image compression.
+
+| Parameter | Type
+| - | - |
+| errorMessage | text
+
+## <kbd>Methods:</kbd>
+**ImageCompressor** has total 2 methods.
+
+### 1. PathFromUri
+Converts a content URI to a file system path.
+
+* Return type: `text`
+
+| Parameter | Type
+| - | - |
+| stringUri | text
+
+### 2. CompressImage
+Compresses the image at the given path to the specified format and quality.
+
+| Parameter | Type
+| - | - |
+| imagePath | text <small><mark>(asset blocks)</mark></small>
+| imageName | text
+| quality | number
+| id | number
+
+## <kbd>Setter:</kbd>
+**ImageCompressor** has total 1 setter property.
+
+### 1. LogEnabled
+Enable or disable logging to Logcat
+
+* Input type: `boolean`
+
