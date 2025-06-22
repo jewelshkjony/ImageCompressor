@@ -25,7 +25,7 @@ import com.google.appinventor.components.runtime.ComponentContainer;
 import com.google.appinventor.components.runtime.EventDispatcher;
 
 @DesignerComponent(
-    version = 7, 
+    version = 8, 
     versionName = "1.0", 
     description = "An extension for compressing images to JPEG, PNG, or WebP.", 
     iconName = "icon.png"

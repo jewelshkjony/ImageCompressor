@@ -7,11 +7,11 @@ An extension for compressing images to JPEG, PNG, or WebP.
 ## 📝 Specifications
 * **
 📦 **Package:** com.bosonshiggs.imagecompressor
-💾 **Size:** 27,86 KB
+💾 **Size:** 20.65 KB
 ⚙️ **Version:** 1.0
 📱 **Minimum API Level:** 7
-📅 **Updated On:** [date=2025-06-21 timezone="America/Fortaleza"]
-💻 **Built & documented using:** [FAST](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-publish-extensions/129103?u=jewel) <small><mark>v3.7.1</mark></small>
+📅 **Updated On:** [date=2025-06-22 timezone="Asia/Dhaka"]
+💻 **Built & documented using:** [FAST](https://community.appinventor.mit.edu/t/fast-an-efficient-way-to-build-publish-extensions/129103?u=jewel) <small><mark>v3.7.1-premium</mark></small>
 
 ## <kbd>Events:</kbd>
 **ImageCompressor** has total 3 events.
