@@ -1,20 +1,18 @@
-package com.bosonshiggs.imagecompressor.helpers;
+package com.bosonshiggs.imagecompressor.utils;
 
-import android.content.Context;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+
 import android.content.ContentUris;
+import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Environment;
 import android.provider.DocumentsContract;
 import android.provider.MediaStore;
-
 import android.provider.OpenableColumns;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-
-import java.io.File;
 
 public class PathUtils {
 	public static String getPath(Context context, Uri uri) {
